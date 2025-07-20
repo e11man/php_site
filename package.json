@@ -1,0 +1,26 @@
+{
+  "name": "modern-design-studio",
+  "version": "1.0.0",
+  "description": "A modern, modular PHP website template with beautiful design and Vercel deployment ready",
+  "main": "index.php",
+  "scripts": {
+    "dev": "php -S localhost:8000",
+    "start": "php -S localhost:8000",
+    "build": "echo 'No build step required for PHP'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "php",
+    "website",
+    "template",
+    "modern",
+    "responsive",
+    "vercel"
+  ],
+  "author": "Modern Design Studio",
+  "license": "MIT",
+  "devDependencies": {},
+  "engines": {
+    "php": ">=7.4"
+  }
+}
